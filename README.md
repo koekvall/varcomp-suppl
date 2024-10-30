@@ -2,7 +2,7 @@
 Supplementary material for "Fast and reliable confidence intervals for a variance component" by Zhang, Ekvall, and Molstad.
 
 # Figure 1 (Examples)
-To reproduce Figure 1 from the main manuscript and Figure 1 from the Supplmentary Materials, execute the CIsExample_R1.R and CIsExample_R1_Zoomed.R scripts from the "Examples" directory. The corresponding .sh files (SLURM job submission scripts written in Bash) can be used to run these on a high-performance computing cluster. Once the jobs are complete, the plots can be created by executing CoveragePlots_R1.R. 
+To reproduce Figure 1 from the main manuscript and Figure 1 from the Supplmentary Material, execute the CIsExample_R1.R and CIsExample_R1_Zoomed.R scripts from the "Examples" directory. The corresponding .sh files (SLURM job submission scripts written in Bash) can be used to run these on a high-performance computing cluster. Once the jobs are complete, the plots can be created by executing CoveragePlots_R1.R. 
 
 # Figure 2 (Convexity)
 Figure 2 can be created by executing the script quasiconvex.R in the "Convexity" directory. 

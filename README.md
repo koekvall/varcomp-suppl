@@ -1,6 +1,6 @@
 # varcomp-suppl
 Supplementary material for ["Fast and reliable confidence intervals for a
-variance component"](https://arxiv.org/pdf/2404.15060) by Zhang, Ekvall,
+variance component"](https://arxiv.org/abs/2404.15060) by Zhang, Ekvall,
 and Molstad.
 
 # Figure 1 (Examples)

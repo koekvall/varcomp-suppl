@@ -11,7 +11,7 @@ submission scripts written in Bash) can be used to run these on a
 high-performance computing cluster. Once the jobs are complete, the plots can be
 created by executing CoveragePlots_R1.R. 
 
-# Figure 2 (Quasi-convexity)
+# Figure 2 (Convexity)
 Figure 2 can be created by executing the script quasiconvex.R in the "Convexity"
 directory. 
 

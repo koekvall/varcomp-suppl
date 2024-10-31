@@ -3,6 +3,8 @@ Supplementary material for ["Fast and reliable confidence intervals for a
 variance component"](https://arxiv.org/abs/2404.15060) by Zhang, Ekvall,
 and Molstad.
 
+For the R package implementing the proposed methods, see the repo [lmmvar](https://github.com/yqzhang5972/lmmvar).
+
 # Figure 1 (Examples)
 To reproduce Figure 1 from the main manuscript and Figure 1 from the
 Supplementary Material, execute the CIsExample_R1.R and CIsExample_R1_Zoomed.R

@@ -5,7 +5,7 @@ component"](https://arxiv.org/abs/2404.15060) by Zhang, Ekvall, and Molstad.
 
 For an `R` package implementing the proposed methods, see the repo [lmmvar](https://github.com/yqzhang5972/lmmvar).
 
-# Figure 1 (Examples)
+### Figure 1 (Examples)
 To reproduce Figure 1 from the main manuscript and Figure 1 from the
 Supplementary Material, execute the CIsExample_R1.R and CIsExample_R1_Zoomed.R
 scripts from the "Examples" directory. The corresponding .sh files (SLURM job
@@ -13,11 +13,11 @@ submission scripts written in Bash) can be used to run these on a
 high-performance computing cluster. Once the jobs are complete, the plots can be
 created by executing CoveragePlots_R1.R. 
 
-# Figure 2 (Convexity)
+### Figure 2 (Convexity)
 Figure 2 can be created by executing the script quasiconvex.R in the "Convexity"
 directory. 
 
-# Figure 3 (EigenSim)
+### Figure 3 (EigenSim)
 The results displayed in Figure 3 can be reproduced by running the script
 EigenSim_R1.R for all combinations of "params" (line 5). This can be done in
 parallel by executing "EigenSim_R1.sh" (a SLURM job submission script written in
@@ -26,7 +26,7 @@ Bash) on a high-performance computing cluster. Once the results are available
 the EigenSimPlots_R1.R script. 
 
 
-# Figure 4  (TimingComparison)
+### Figure 4  (TimingComparison)
 The results displayed in Figure 4 can be produced by using the files available
 in the directory "TimingComparison". Specifically, one must first run
 TimingSetup_R1.R and store results in a directory "data_R1". Then, one must run
@@ -38,11 +38,11 @@ high-performance computing cluster. Once the results are available (and stored
 in a directory "Results_R1"), the plots can be created by first running the
 getResults_1.R script, then running the EigenSimPlots_R1.R script. 
 
-# Figure 5 (SpatialTranscriptomics)
+### Figure 5 (SpatialTranscriptomics)
 The plots from Figure 5 can be reproduced by running both stxbrain_posterior.R
 and stxbrain_anterior.R from the "SpatialTranscriptomics" directory. 
 
-# Figure 2 of Supplementary Material (WidthComparison)
+### Figure 2 of Supplementary Material (WidthComparison)
 The results displayed in Figure 2 of the Supplementary Material can be
 reproduced by running Widths_R1.R for all combinations of parameters defined in
 "params" (line 5). This can be done automatically on a high-performance

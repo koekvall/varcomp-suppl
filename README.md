@@ -1,9 +1,9 @@
-# varcomp-suppl
-Supplementary material for ["Fast and reliable confidence intervals for a
-variance component"](https://arxiv.org/abs/2404.15060) by Zhang, Ekvall,
-and Molstad.
+# Online supplementary material
+This repo contains supplementary material, mostly in the form of code to
+reproduce results, for ["Fast and reliable confidence intervals for a variance
+component"](https://arxiv.org/abs/2404.15060) by Zhang, Ekvall, and Molstad.
 
-For an R package implementing the proposed methods, see the repo [lmmvar](https://github.com/yqzhang5972/lmmvar).
+For an `R` package implementing the proposed methods, see the repo [lmmvar](https://github.com/yqzhang5972/lmmvar).
 
 # Figure 1 (Examples)
 To reproduce Figure 1 from the main manuscript and Figure 1 from the
@@ -42,7 +42,7 @@ getResults_1.R script, then running the EigenSimPlots_R1.R script.
 The plots from Figure 5 can be reproduced by running both stxbrain_posterior.R
 and stxbrain_anterior.R from the "SpatialTranscriptomics" directory. 
 
-# Figure 2 of Supplementary Materials (WidthComparison)
+# Figure 2 of Supplementary Material (WidthComparison)
 The results displayed in Figure 2 of the Supplementary Material can be
 reproduced by running Widths_R1.R for all combinations of parameters defined in
 "params" (line 5). This can be done automatically on a high-performance
